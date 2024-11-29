@@ -1,0 +1,36 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    background-color: #000; /* Black background */
+    color: #FFF;           /* White text */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #000; /* Matches body background */
+    color: #FFF;           /* White font */
+    border-bottom: 2px solid #FFF;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Map Container */
+#map {
+    height: 90vh; /* Map fills 90% of viewport height */
+    width: 100vw; /* Full width */
+    margin: 0;
+    border: none;
+}
+
+/* Hover highlight */
+.leaflet-interactive:hover {
+    fill-opacity: 1 !important; /* Fully opaque when hovered */
+    fill: #FFF !important;     /* White fill for hover effect */
+    stroke: #FFF;              /* White stroke to highlight */
+}
